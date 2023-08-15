@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/VNPAY/vnpay_return.jsp" value="file://$PROJECT_DIR$/src/main/webapp/VNPAY" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/404Page/500page.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/404Page" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/common/header.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin/common" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/list-likeVideo.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/list-userLike.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+      </map>
+    </option>
+  </component>
+</project>
