@@ -80,7 +80,7 @@ public class SendEmailShareVideo {
 			props.put("mail.smtp.port", "465");
 			Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication("nhut.thanthien17@gmail.com", "vbnkpfdgibraeqek");
+					return new PasswordAuthentication("nhut.thanthien17@gmail.com", "dlckwoskkfkppvlx");
 				}
 			});
 			try {

@@ -16,8 +16,6 @@
 <link rel="shortcut icon" type="text/html"
 	href="<c:url value='/VNPAY/assets/favicon.png' />">
 <!-- Bootstrap core CSS -->
-<link rel="shortcut icon" type="text/html"
-	href="/paymentv2/images/favicon/favicon.png">
 <link href="/vnpay_jsp/assets/bootstrap.min.css" rel="stylesheet" />
 <!-- Custom styles for this template -->
 <link href="/vnpay_jsp/assets/jumbotron-narrow.css" rel="stylesheet">
