@@ -1,8 +1,5 @@
-<%@page import="jakarta.websocket.Session" %>
 <%@page import="Controll.Dao.Impl.UserDaoImpl" %>
 <%@page import="Controll.Dao.UserDao" %>
-<%@page import="java.util.HashSet" %>
-<%@page import="java.util.Set" %>
 <%@page import="Controll.Service.Impl.HoaDonServiceImpl" %>
 <%@page import="Controll.Service.HoaDonService" %>
 <%@page import="Controll.Dao.Impl.HoaDonImpl" %>
@@ -19,12 +16,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@ include file="/views/common/taglib.jsp" %>
-<%@ page import="Controll.Util.CurrencyFormatter" %>
 
-<%@page import="java.util.Iterator" %>
-<%@page import="java.util.Collections" %>
-<%@page import="java.util.List" %>
-<%@page import="java.util.ArrayList" %>
 <%@page import="java.util.Enumeration" %>
 <%@page import="java.util.Map" %>
 <%@page import="java.util.HashMap" %>
@@ -41,11 +33,11 @@
     <title>VNPAY RESPONSE</title>
 
     <link rel="shortcut icon" type="text/html"
-          href="<c:url value='/VNPAY/assets/favicon.png'/>">
+          href="<c:url value='/VNPAY//VNPAY//VNPAY/assets/favicon.png'/>">
     <!-- Bootstrap core CSS -->
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="sweetalert2.min.css">
-    <link href="/vnpay_jsp/assets/jumbotron-narrow.css" rel="stylesheet">
+    <link href="/VNPAY//VNPAY//VNPAY/assets/jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet"
@@ -149,7 +141,7 @@
             Hoadon hd = hoadonService.findHoaDonByUserIdAndVideoId(user.getId(), video.getId());
             if (hd != null) {
                 hoadonService.remove(user.getId(), video.getId());
-               	hoadonService.create(vnp_TxnRef, video, user, Vnp_OrderInfo, Vnp_ResponseCode,
+                hoadonService.create(vnp_TxnRef, video, user, Vnp_OrderInfo, Vnp_ResponseCode,
                         Vnp_TransactionNo, Vnp_BankCode, vnp_Amount);
             } else {
                 hoadonService.create(vnp_TxnRef, video, user, Vnp_OrderInfo, Vnp_ResponseCode,
@@ -163,8 +155,8 @@
     <h5 class="paymentTitle mb-5 text-success" style="display: block;">Giao
         Dịch Thành Công</h5>
     <div class="animate__animated animate__tada tick-animation">
-        <a href="http://localhost:8080/BackEnd/index"><img
-                src="./assets/favicon.png" width="100px"
+        <a href="http://localhost:8080/index"><img
+                src="/VNPAY/assets/favicon.png" width="100px"
                 alt="Success tick animation"></a>
     </div>
     <div class="payment-details" style="display: none;">
@@ -190,7 +182,7 @@
         <div class="d-flex justify-content-between">
             <p>Trạng thái: &nbsp;</p>
             <p class="fw-bold"
-                    style="color: <%=signValue.equals(vnp_SecureHash) && "00".equals(request.getParameter("vnp_TransactionStatus"))
+               style="color: <%=signValue.equals(vnp_SecureHash) && "00".equals(request.getParameter("vnp_TransactionStatus"))
 		? "green"
 		: "red"%>;">
                 <%
@@ -221,7 +213,7 @@
 
 <script src="sweetalert2.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="/vnpay_jsp/assets/jquery-1.11.3.min.js"></script>
+<script src="/VNPAY/assets/jquery-1.11.3.min.js"></script>
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script

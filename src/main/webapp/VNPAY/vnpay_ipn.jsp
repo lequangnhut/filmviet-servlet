@@ -4,10 +4,6 @@
 <%@page import="java.nio.charset.StandardCharsets"%>
 <%@page import="Controll.VNPAY.Config"%>
 <%@page contentType="application/json; charset=UTF-8"%>
-<%@page import="java.util.Iterator"%>
-<%@page import="java.util.Collections"%>
-<%@page import="java.util.List"%>
-<%@page import="java.util.ArrayList"%>
 <%@page import="java.util.Enumeration"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.util.HashMap"%>
@@ -55,22 +51,22 @@ if (signValue.equals(vnp_SecureHash)) {
 			//Xử lý/Cập nhật tình trạng giao dịch thanh toán "Không thành công"
 			//  out.print("GD Khong thanh cong");
 		}
-		out.print("{\"RspCode\":\"00\",\"Message\":\"Confirm Success\"}");
+		System.out.print("{\"RspCode\":\"00\",\"Message\":\"Confirm Success\"}");
 	} else {
 		//Trạng thái giao dịch đã được cập nhật trước đó
-		out.print("{\"RspCode\":\"02\",\"Message\":\"Order already confirmed\"}");
+		System.out.print("{\"RspCode\":\"02\",\"Message\":\"Order already confirmed\"}");
 	}
 		} else {
 	//Số tiền không trùng khớp
-	out.print("{\"RspCode\":\"04\",\"Message\":\"Invalid Amount\"}");
+	System.out.print("{\"RspCode\":\"04\",\"Message\":\"Invalid Amount\"}");
 		}
 	} else {
 		//Mã giao dịch không tồn tại
-		out.print("{\"RspCode\":\"01\",\"Message\":\"Order not Found\"}");
+		System.out.print("{\"RspCode\":\"01\",\"Message\":\"Order not Found\"}");
 	}
 
 } else {
 	// Sai checksum
-	out.print("{\"RspCode\":\"97\",\"Message\":\"Invalid Checksum\"}");
+	System.out.print("{\"RspCode\":\"97\",\"Message\":\"Invalid Checksum\"}");
 }
 %>
