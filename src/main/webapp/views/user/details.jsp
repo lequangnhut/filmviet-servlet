@@ -354,7 +354,7 @@
             confirmButtonText: 'Đồng ý !'
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = "http://localhost:8080/payment?title=${encodedTitle}&price=${video.price}&href=${video.href}";
+                window.location.href = "http://localhost:8080/BackEnd/payment?title=${encodedTitle}&price=${video.price}&href=${video.href}";
             }
         })
     }

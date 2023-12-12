@@ -71,7 +71,7 @@
                             <li><a href="#" class="facebook"><i
                                     class="fa fa-facebook"></i> Đăng nhập với Facebook</a></li>
                             <li><a
-                                    href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/login&response_type=code
+                                    href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/BackEnd/login&response_type=code
     &client_id=794386492125-ihgk5oo0mg850vefp61rctp97m3pede9.apps.googleusercontent.com&approval_prompt=force"
                                     class="google"><i class="fa fa-google"></i> Đăng nhập với
                                 Google</a></li>

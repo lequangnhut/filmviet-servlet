@@ -11,9 +11,9 @@
     <meta name="author" content="">
     <title>Refund</title>
     <!-- Bootstrap core CSS -->
-    <link href="/VNPAY/assets/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/BackEnd/VNPAY/assets/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom styles for this template -->
-    <script src="/VNPAY/assets/jquery-1.11.3.min.js"></script>
+    <script src="/BackEnd/VNPAY/assets/jquery-1.11.3.min.js"></script>
 </head>
 
 <body>

@@ -33,11 +33,11 @@
     <title>VNPAY RESPONSE</title>
 
     <link rel="shortcut icon" type="text/html"
-          href="<c:url value='/VNPAY//VNPAY//VNPAY/assets/favicon.png'/>">
+          href="<c:url value='/BackEnd/VNPAY//VNPAY//VNPAY/assets/favicon.png'/>">
     <!-- Bootstrap core CSS -->
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="sweetalert2.min.css">
-    <link href="/VNPAY//VNPAY//VNPAY/assets/jumbotron-narrow.css" rel="stylesheet">
+    <link href="/BackEnd/VNPAY//VNPAY//VNPAY/assets/jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet"
@@ -155,8 +155,8 @@
     <h5 class="paymentTitle mb-5 text-success" style="display: block;">Giao
         Dịch Thành Công</h5>
     <div class="animate__animated animate__tada tick-animation">
-        <a href="http://localhost:8080/index"><img
-                src="/VNPAY/assets/favicon.png" width="100px"
+        <a href="http://localhost:8080/BackEnd/index"><img
+                src="/BackEnd/VNPAY/assets/favicon.png" width="100px"
                 alt="Success tick animation"></a>
     </div>
     <div class="payment-details" style="display: none;">
@@ -213,7 +213,7 @@
 
 <script src="sweetalert2.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="/VNPAY/assets/jquery-1.11.3.min.js"></script>
+<script src="/BackEnd/VNPAY/assets/jquery-1.11.3.min.js"></script>
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script

@@ -16,11 +16,11 @@
     <link rel="shortcut icon" type="text/html"
           href="<c:url value='/VNPAY/assets/favicon.png' />">
     <!-- Bootstrap core CSS -->
-    <link href="/VNPAY/assets/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/BackEnd/VNPAY/assets/bootstrap.min.css" rel="stylesheet"/>
     <!-- Custom styles for this template -->
-    <link href="/VNPAY/assets/jumbotron-narrow.css" rel="stylesheet">
+    <link href="/BackEnd/VNPAY/assets/jumbotron-narrow.css" rel="stylesheet">
     <link href="https://pay.vnpay.vn/lib/vnpay/vnpay.css" rel="stylesheet"/>
-    <script src="/VNPAY/assets/jquery-1.11.3.min.js"></script>
+    <script src="/BackEnd/VNPAY/assets/jquery-1.11.3.min.js"></script>
 </head>
 
 <body>

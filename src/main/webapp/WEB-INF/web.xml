@@ -111,18 +111,18 @@
 	</servlet-mapping>
 
 	<!--configue khi người dùng nhập đường dẫn sai thì sẽ vào 404 -->
-	<error-page>
-		<error-code>400</error-code>
-		<location>/views/404Page/404page.jsp</location>
-	</error-page>
+<!--	<error-page>-->
+<!--		<error-code>400</error-code>-->
+<!--		<location>/views/404Page/404page.jsp</location>-->
+<!--	</error-page>-->
 
-	<error-page>
-		<error-code>404</error-code>
-		<location>/views/404Page/404page.jsp</location>
-	</error-page>
+<!--	<error-page>-->
+<!--		<error-code>404</error-code>-->
+<!--		<location>/views/404Page/404page.jsp</location>-->
+<!--	</error-page>-->
 
-	<error-page>
-		<error-code>500</error-code>
-		<location>/views/404Page/500page.jsp</location>
-	</error-page>
+<!--	<error-page>-->
+<!--		<error-code>500</error-code>-->
+<!--		<location>/views/404Page/500page.jsp</location>-->
+<!--	</error-page>-->
 </web-app>
