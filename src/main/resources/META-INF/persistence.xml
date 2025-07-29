@@ -8,9 +8,9 @@
 	<persistence-unit name="nhutlq">
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;database=FilmViet" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://192.168.1.102:1433;database=FilmViet" />
 			<property name="javax.persistence.jdbc.user" value="sa" />
-			<property name="javax.persistence.jdbc.password" value="123" />
+			<property name="javax.persistence.jdbc.password" value="lxIUfscmNn0yJgA" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 		</properties>
